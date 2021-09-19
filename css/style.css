@@ -68,5 +68,13 @@ body{
   font-size: 2rem;
   margin-right: .3rem;
   text-align: center;
-  background-image: url("images/checkoutcart.jpg");
+ 
 }
+
+.header .icons div:hover{
+  background:var(--orange);
+  color: #fff;  
+}
+  
+
+
