@@ -30,6 +30,22 @@ html{
 body{
   background: #eee;
 }
+
+.btn{
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 8rem 3rem;
+  font-size: 1.7rem;
+  border-radius: .5rem;
+  border: 2rem solid var(--black);
+  color: var(--black);
+  cursor: pointer;
+}
+
+.btn:hover{
+  background: var(--orange);
+  color: #fff;
+}
  
 .header{
   position: fixed;
@@ -78,12 +94,17 @@ body{
 
 .header .shopping-cart{
   position: absolute;
-  top:110%; right: 2rem;
+  top:110%; right: -110%;
   padding: 1rem;
   border-radius: .5rem;
   box-shadow: var(--box-shadow);
   width: 30rem;
   background: #fff;
+}
+
+.header .shopping-cart.active{
+  right: 2rem;
+  transition: .4s linear;
 }
   
 .header .shopping-cart .box{
@@ -124,5 +145,18 @@ body{
 
 .header .shopping-cart .box .content .quantity{
   padding-left: 1rem;
-  
+
+}
+
+.header .shopping-cart .total{
+  font-size: 2.5rem;
+  padding: 1rem 0;
+  text-align: center;
+  color: (--black);
+}
+
+.header .shopping-cart .total .btn{
+  display: block;
+  text-align: center;
+  margin: 1rem;
 }
