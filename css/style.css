@@ -31,6 +31,10 @@ body{
   background: #eee;
 }
 
+section{
+  padding: 2rem 9%;
+}
+
 .btn{
   margin-top: 1rem;
   display: inline-block;
@@ -160,3 +164,16 @@ body{
   text-align: center;
   margin: 1rem;
 }
+
+.home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../images/homeimg.webp") no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 17rem;
+  padding-bottom: 10rem;
+}
+
+.home .content
