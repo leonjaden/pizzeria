@@ -248,6 +248,9 @@ section{
   padding: 1rem;
 }
 
+.products .product-slider .wrapper{
+  justify-content: space-around;
+}
 
 .products .product-slider:first-child{
   margin-bottom: 2rem;
