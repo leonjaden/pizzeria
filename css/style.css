@@ -301,3 +301,23 @@ align-items: center;
 justify-content: center;
 }
 
+.extras .container .row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.extras .container .col .btn {
+  height: 1px;
+  
+}
+ 
+.checkout .small-container {
+  margin: 80px auto;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
