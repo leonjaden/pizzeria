@@ -293,7 +293,28 @@ section{
   padding: .5rem 0;
 }
 
-.extras {
+.toppings {
+padding: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border-radius: 1rem;
+}
+
+.toppings .container .row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.toppings .container .col .btn {
+  height: 1px;
+  
+}
+
+.crust{
 padding: 20px;
 display: flex;
 flex-direction: column;
@@ -301,38 +322,26 @@ align-items: center;
 justify-content: center;
 }
 
-.extras .container .row {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-evenly;
+.crust .box-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+
 }
 
-.extras .container .col .btn {
-  height: 1px;
-  
-}
-
-.crust {
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.crust .container .row{
+.crust .box-container .row{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-}
- 
-.checkout .small-container {
-  margin: 80px auto;
+  
 }
 
-table{
-  width: 100%;
-  border-collapse: collapse;
+.crust .box-container .row p{
+  font-size: 600;
+}
+
+.crust .box-container .container img{
+  max-width: 100;
+  height: auto;
 }
